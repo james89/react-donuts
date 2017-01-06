@@ -12,3 +12,12 @@ Component should:
 - resize fluidly
 
 build using SVG? 
+
+
+### Usage
+
+```
+npm install
+npm start
+open http://localhost:9000
+```
