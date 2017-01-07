@@ -14,4 +14,4 @@ var DonutProgress = React.createClass({
 
 });
 
-module.exports = DonutProgress;
+export default DonutProgress;
