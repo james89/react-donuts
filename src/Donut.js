@@ -3,12 +3,12 @@ import React from 'react';
 
 var DonutProgress = React.createClass({
   getInitialState() {
-    return ({ currentStep: 1, formValues: {} });
+    return ({  });
   },
 
   render() {
     return (
-      <svg></svg>
+      <svg viewBox="0 0 100 100"></svg>
     );
   }
 
