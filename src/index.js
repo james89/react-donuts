@@ -1,4 +1,4 @@
 import React from 'react';
-import BookStore from './BookStore';
+import DonutProgressExample from './Donut';
 
-React.render(<BookStore />, document.getElementById('root'));
+React.render(<DonutProgressExample />, document.getElementById('root'));
