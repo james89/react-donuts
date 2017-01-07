@@ -11,8 +11,11 @@ Component should:
 - units for measurement (percent, number out of 10, etc)
 - resize fluidly
 
-build using SVG? 
+build using SVG?
 
+in-progress SVG notes:
+https://www.evernote.com/l/AFNmwirxualKXbtVv9SR_9xr-NS1VMR_qxI
+- covers each attribute within <svg> and <path> 
 
 ### Usage
 
