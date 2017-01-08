@@ -13,9 +13,10 @@ Component should:
 
 build using SVG?
 
-in-progress SVG notes:
+In-progress SVG notes:
 https://www.evernote.com/l/AFNmwirxualKXbtVv9SR_9xr-NS1VMR_qxI
-- covers each attribute within <svg> and <path> 
+- covers each attribute within <svg> and <path>
+-
 
 ### Usage
 
