@@ -8,13 +8,29 @@ var DonutProgress = React.createClass({
      });
   },
 
+  // getDefaultProps(){
+  //   return ({
+  //     percentage: 0 || this.props.percentage;
+  //   });
+  // },
+  //
+  // componentWillReceiveProps(nextProps) {
+  //   this.setState({
+  //     percentage: nextProps.percentage;
+  //   });
+  // },
+
   render() {
     let radius = `${25}`;
     let diameter = `${2 * radius}`;
     let circumference = `${2 * Math.PI * radius}`;
+    let dashOffset = `${((circumference + diameter) / 100) * this.props.percentage}`
     let drawToAmt = (percentage) => {
 
     }
+    console.log('diameter', diameter);
+    console.log('circumference', circumference);
+    let animationStyle = {strokeDashoffset: dashOffset}
 
     /*
       <path
@@ -27,6 +43,9 @@ var DonutProgress = React.createClass({
       />
     */
     // radius and diameter should always be smaller than the viewbox width/height attribute values (will scale accordingly and fit within outer container)
+
+    //strokeDashOffset: full circle path would equal the value of circumference (in px)
+    //percentage should be ratio of
     return (
       <svg viewBox="0 0 100 100">
         {/* background path */}

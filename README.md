@@ -15,8 +15,6 @@ build using SVG?
 
 In-progress SVG notes:
 https://www.evernote.com/l/AFNmwirxualKXbtVv9SR_9xr-NS1VMR_qxI
-- covers each attribute within <svg> and <path>
--
 
 ### Usage
 
